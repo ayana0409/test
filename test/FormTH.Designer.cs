@@ -35,26 +35,30 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(295, 191);
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(164, 128);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(117, 25);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Cô Hai Bông";
+            label1.Click += label1_Click;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Location = new Point(308, 106);
+            flowLayoutPanel1.Location = new Point(407, 99);
+            flowLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(250, 125);
+            flowLayoutPanel1.Size = new Size(219, 94);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // FormTH
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormTH";
             Text = "FormTH";
             ResumeLayout(false);
